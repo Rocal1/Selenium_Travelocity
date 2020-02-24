@@ -25,7 +25,7 @@ public class Base {
 	public WebDriver InitializerDriver() throws IOException {
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
+				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
 
 		prop.load(fis);
 
@@ -40,17 +40,20 @@ public class Base {
 			driver = new InternetExplorerDriver();
 		}
 
-		
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		
+		
 		return driver;
 	}
+	
 
 	@BeforeTest
 	public void SetUp() throws IOException {
 		driver = InitializerDriver();
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
-		
+
 	}
 
 	@AfterTest
