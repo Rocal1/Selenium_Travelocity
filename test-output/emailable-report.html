@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi_attn">12</td><td class="numi">79,6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">tests.Excercise2Test</td><td><a href="#m1"><b>searching_a_flight_hotel</b>  ("Step 1 and 2")</a></td><td class="numi">1</td><td>1582505472625</td><td class="numi">2</td></tr>
+<tr class="failedeven"><td rowspan="1">tests.Excercise3Test</td><td><a href="#m2"><b>searching_a_hotel</b>  ("Step 1 and 2")</a></td><td class="numi">1</td><td>1582505472630</td><td class="numi">1</td></tr>
+<tr class="failedodd"><td rowspan="1">tests.Excercise4Test</td><td><a href="#m3"><b>searching_a_flight</b>  ("Step 1")</a></td><td class="numi">1</td><td>1582505472632</td><td class="numi">3</td></tr>
+<tr class="failedeven"><td rowspan="1">tests.Excercise5Test</td><td><a href="#m4"><b>searching_a_cruise</b>  ("Step 1, 2 adn 3")</a></td><td class="numi">1</td><td>1582505472638</td><td class="numi">2</td></tr>
+<tr class="failedodd"><td rowspan="1">tests.Excercise2Test</td><td><a href="#m5"><b>verify_validationsPage</b>  ("Step 3")</a></td><td class="numi">1</td><td>1582505477265</td><td class="numi">1</td></tr>
+<tr class="failedeven"><td rowspan="1">tests.Excercise5Test</td><td><a href="#m6"><b>verifyDestinations_and_SetFilter</b>  ("Step 4, 5 and 6")</a></td><td class="numi">1</td><td>1582505477273</td><td class="numi">3</td></tr>
+<tr class="failedodd"><td rowspan="1">tests.Excercise2Test</td><td><a href="#m7"><b>Sort_byPrice_and_Select3stars</b>  ("Step 4 and 5")</a></td><td class="numi">1</td><td>1582505499301</td><td class="numi">1</td></tr>
+<tr class="failedeven"><td rowspan="1">tests.Excercise5Test</td><td><a href="#m8"><b>selectCuiseWithMoreDiscount</b>  ("Step 7 and 8")</a></td><td class="numi">1</td><td>1582505499305</td><td class="numi">2</td></tr>
+<tr class="failedodd"><td rowspan="4">tests.Excercise2Test</td><td><a href="#m9"><b>Verify_hotel_Selected</b>  ("Step 6 and 7")</a></td><td class="numi">1</td><td>1582505500160</td><td class="numi">3</td></tr><tr class="failedodd"><td><a href="#m10"><b>select_departing_flight</b>  ("Step 8")</a></td><td class="numi">1</td><td>1582505509781</td><td class="numi">10001</td></tr><tr class="failedodd"><td><a href="#m11"><b>select_returning_flight</b>  ("Step 9")</a></td><td class="numi">1</td><td>1582505520590</td><td class="numi">10001</td></tr><tr class="failedodd"><td><a href="#m12"><b>TripDetails_and_WhoIsTravelling</b>  ("Step 12 and 13")</a></td><td class="numi">1</td><td>1582505530593</td><td class="numi">5</td></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">tests.Excercise1Test</td><td><a href="#m13"><b>searching_a_flight</b>  ("Step 1")</a></td><td class="numi">1</td><td>1582505465962</td><td class="numi">6654</td></tr><tr class="passedodd"><td><a href="#m14"><b>verify_results_on_the_page</b>  ("Step 2")</a></td><td class="numi">1</td><td>1582505472641</td><td class="numi">4623</td></tr>
+<tr class="passedeven"><td rowspan="1">tests.Excercise3Test</td><td><a href="#m15"><b>Verify_sponsor</b>  ("Step 3 and 4")</a></td><td class="numi">1</td><td>1582505477268</td><td class="numi">5</td></tr>
+<tr class="passedodd"><td rowspan="4">tests.Excercise1Test</td><td><a href="#m16"><b>verify_sorted_results</b>  ("Step 3 and 4")</a></td><td class="numi">1</td><td>1582505477277</td><td class="numi">22022</td></tr><tr class="passedodd"><td><a href="#m17"><b>select_returning_flight</b>  ("Step 5")</a></td><td class="numi">1</td><td>1582505499310</td><td class="numi">849</td></tr><tr class="passedodd"><td><a href="#m18"><b>verify_TripDetails</b>  ("Step 6 and 7")</a></td><td class="numi">1</td><td>1582505500164</td><td class="numi">9617</td></tr><tr class="passedodd"><td><a href="#m19"><b>verify_WhoIsTravelling</b>  ("Step 8")</a></td><td class="numi">1</td><td>1582505519784</td><td class="numi">805</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">tests.Excercise5Test:verifyDestinations_and_SetFilter</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.CruisesResultsPage.getDestination(CruisesResultsPage.java:29)
+<br/>at tests.Excercise5Test.verifyDestinations_and_SetFilter(Excercise5Test.java:42)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">tests.Excercise2Test:Verify_hotel_Selected</h2>
+<div style="padding-left:3em">
+<p>null</p>
+java.base/java.util.Objects.requireNonNull(Objects.java:222)
+<br/>at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:106)
+<br/>at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:85)
+<br/>at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+<br/>at tests.Excercise2Test.Verify_hotel_Selected(Excercise2Test.java:94)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">tests.Excercise2Test:verify_validationsPage</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.HotelResultsPage.getSortByPrice(HotelResultsPage.java:27)
+<br/>at tests.Excercise2Test.verify_validationsPage(Excercise2Test.java:51)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">tests.Excercise2Test:searching_a_flight_hotel</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.LandingPage.getFlightsAndHotel(LandingPage.java:84)
+<br/>at tests.Excercise2Test.searching_a_flight_hotel(Excercise2Test.java:29)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">tests.Excercise3Test:searching_a_hotel</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.LandingPage.getGoingTo(LandingPage.java:112)
+<br/>at tests.Excercise3Test.searching_a_hotel(Excercise3Test.java:13)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">tests.Excercise2Test:Sort_byPrice_and_Select3stars</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.HotelResultsPage.getSortByPrice(HotelResultsPage.java:27)
+<br/>at tests.Excercise2Test.Sort_byPrice_and_Select3stars(Excercise2Test.java:58)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">tests.Excercise2Test:select_returning_flight</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.FlightResultsReturnPage.getSelectButton(FlightResultsReturnPage.java:27)
+<br/>at tests.Excercise2Test.select_returning_flight(Excercise2Test.java:137)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">tests.Excercise4Test:searching_a_flight</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.LandingPage.getFlightsAndHotel(LandingPage.java:84)
+<br/>at tests.Excercise4Test.searching_a_flight(Excercise4Test.java:16)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">tests.Excercise5Test:searching_a_cruise</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.LandingPage.getCruises(LandingPage.java:119)
+<br/>at tests.Excercise5Test.searching_a_cruise(Excercise5Test.java:26)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">tests.Excercise2Test:select_departing_flight</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.FlightResultsGoingPage.getSelectButton(FlightResultsGoingPage.java:33)
+<br/>at tests.Excercise2Test.select_departing_flight(Excercise2Test.java:120)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">tests.Excercise5Test:selectCuiseWithMoreDiscount</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.CruisesResultsPage.getDiscountAmount(CruisesResultsPage.java:41)
+<br/>at tests.Excercise5Test.selectCuiseWithMoreDiscount(Excercise5Test.java:73)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">tests.Excercise2Test:TripDetails_and_WhoIsTravelling</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObject.TripDetailPage.getNext(TripDetailPage.java:35)
+<br/>at tests.Excercise2Test.TripDetails_and_WhoIsTravelling(Excercise2Test.java:149)
+<br/>21 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">tests.Excercise1Test:searching_a_flight</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">tests.Excercise1Test:verify_results_on_the_page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">tests.Excercise1Test:select_returning_flight</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">tests.Excercise1Test:verify_TripDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">tests.Excercise3Test:Verify_sponsor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">tests.Excercise1Test:verify_WhoIsTravelling</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">tests.Excercise1Test:verify_sorted_results</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="tests.Excercise1Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- tests.Excercise1Test -->
+      <class name="tests.Excercise3Test">
+        <methods>
+          <include name="searching_a_hotel"/>
+        </methods>
+      </class> <!-- tests.Excercise3Test -->
+      <class name="tests.Excercise4Test">
+        <methods>
+          <include name="searching_a_flight"/>
+        </methods>
+      </class> <!-- tests.Excercise4Test -->
+      <class name="tests.Excercise5Test">
+        <methods>
+          <include name="searching_a_cruise"/>
+          <include name="selectCuiseWithMoreDiscount"/>
+          <include name="verifyDestinations_and_SetFilter"/>
+        </methods>
+      </class> <!-- tests.Excercise5Test -->
+      <class name="tests.Excercise2Test">
+        <methods>
+          <include name="verify_validationsPage"/>
+          <include name="Verify_hotel_Selected"/>
+          <include name="searching_a_flight_hotel"/>
+          <include name="select_departing_flight"/>
+          <include name="TripDetails_and_WhoIsTravelling"/>
+          <include name="select_returning_flight"/>
+          <include name="Sort_byPrice_and_Select3stars"/>
+        </methods>
+      </class> <!-- tests.Excercise2Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
