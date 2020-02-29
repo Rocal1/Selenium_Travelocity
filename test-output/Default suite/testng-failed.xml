@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.Excercise1Test">
+      <class name="com.tests.Excercise2Test">
         <methods>
-          <include name="verify_TripDetails"/>
-          <include name="verify_sorted_results"/>
           <include name="teardown"/>
-          <include name="select_returning_flight"/>
           <include name="SetUp"/>
-          <include name="verify_WhoIsTravelling"/>
+          <include name="excercise2"/>
         </methods>
-      </class> <!-- tests.Excercise1Test -->
+      </class> <!-- com.tests.Excercise2Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

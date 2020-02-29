@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Travelocity Automated Suite]">
+  <test parallel="tests" name="Test4(failed)">
+    <classes>
+      <class name="com.tests.Excercise5Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise5Test -->
+      <class name="com.tests.Excercise4Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+          <include name="excercise4"/>
+        </methods>
+      </class> <!-- com.tests.Excercise4Test -->
+      <class name="com.tests.Excercise1Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise1Test -->
+      <class name="com.tests.Excercise3Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise3Test -->
+      <class name="com.tests.Excercise2Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise2Test -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="com.tests.Excercise5Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise5Test -->
+      <class name="com.tests.Excercise4Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise4Test -->
+      <class name="com.tests.Excercise1Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise1Test -->
+      <class name="com.tests.Excercise3Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise3Test -->
+      <class name="com.tests.Excercise2Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+          <include name="excercise2"/>
+        </methods>
+      </class> <!-- com.tests.Excercise2Test -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.tests.Excercise5Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise5Test -->
+      <class name="com.tests.Excercise4Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise4Test -->
+      <class name="com.tests.Excercise1Test">
+        <methods>
+          <include name="excercise1"/>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise1Test -->
+      <class name="com.tests.Excercise3Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise3Test -->
+      <class name="com.tests.Excercise2Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise2Test -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="com.tests.Excercise5Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise5Test -->
+      <class name="com.tests.Excercise4Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise4Test -->
+      <class name="com.tests.Excercise1Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise1Test -->
+      <class name="com.tests.Excercise3Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+          <include name="excercise3"/>
+        </methods>
+      </class> <!-- com.tests.Excercise3Test -->
+      <class name="com.tests.Excercise2Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.tests.Excercise2Test -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Travelocity Automated Suite] -->
