@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 import com.pages.HotelResultsPage;
 import com.pages.LandingPage;
-import com.travelocity.BaseTest;
 
 public class Excercise3Test extends BaseTest {
 

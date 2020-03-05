@@ -1,4 +1,4 @@
-package com.travelocity;
+package com.reports;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;

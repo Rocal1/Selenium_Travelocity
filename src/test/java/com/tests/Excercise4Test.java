@@ -3,7 +3,6 @@ package com.tests;
 import static org.testng.Assert.assertTrue;
 import org.testng.annotations.Test;
 import com.pages.LandingPage;
-import com.travelocity.BaseTest;
 
 public class Excercise4Test extends BaseTest {
 	

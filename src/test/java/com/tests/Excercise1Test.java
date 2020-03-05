@@ -6,7 +6,6 @@ import com.pages.FlightResultsPage;
 import com.pages.LandingPage;
 import com.pages.PaymentPage;
 import com.pages.TripDetailPage;
-import com.travelocity.BaseTest;
 
 public class Excercise1Test extends BaseTest {
 

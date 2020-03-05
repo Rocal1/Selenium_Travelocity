@@ -1,4 +1,4 @@
-package com.travelocity;
+package com.driver;
 
 import java.io.IOException;
 import java.util.Properties;

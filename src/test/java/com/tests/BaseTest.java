@@ -1,4 +1,4 @@
-package com.travelocity;
+package com.tests;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,6 +9,8 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.asserts.SoftAssert;
+
+import com.driver.MyDriver;
 
 
 

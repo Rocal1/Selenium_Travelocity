@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import com.pages.CruisePage;
 import com.pages.CruisesResultsPage;
 import com.pages.LandingPage;
-import com.travelocity.BaseTest;
 
 public class Excercise5Test extends BaseTest {
 	

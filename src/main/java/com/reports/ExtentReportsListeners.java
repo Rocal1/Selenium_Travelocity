@@ -1,4 +1,4 @@
-package com.travelocity;
+package com.reports;
 
 import org.testng.ITestContext;
 
@@ -9,8 +9,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 
 import com.aventstack.extentreports.ExtentTest;
-
-import com.travelocity.ExtentManager;
+import com.reports.ExtentManager;
 
 public class ExtentReportsListeners implements ITestListener {
 

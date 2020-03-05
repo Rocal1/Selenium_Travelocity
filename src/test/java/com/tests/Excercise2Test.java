@@ -8,7 +8,6 @@ import com.pages.HotelResultsPage;
 import com.pages.LandingPage;
 import com.pages.PaymentPage;
 import com.pages.TripDetailPage;
-import com.travelocity.BaseTest;
 
 public class Excercise2Test extends BaseTest {
 
